@@ -1,0 +1,31 @@
+fait par:
+
+Woldemichael 
+Ayachi 
+Kane
+
+================Matrice de Franck========
+b = 1 1 1
+1x + 1y + 1z = 1
+1x + 2y + 2z = 1
+0x + 2y + 3z = 1
+
+Après résolution nous trouvons les solutions de x,y et z:
+x =  1
+y = -1
+z =  1
+
+Avec la methode de guass on trouve la solution exacte donc la valeur d'epsilon = || (1, -1, 1) - (1, -1, 1)|| = 0
+
+Avec la methode de jacobi  apres 32 itertions pour epsilon = 10^-3 nous trouvons :
+
+x = 0.998596
+y = -0.996490
+z = 0.997660
+
+Ainsi si nous fesons le meme calcule pour calculer e a la norme 2 on obtient:
+
+e = racinecarre((1-0.998596)^2 + ((-1) - (-0.996490))^2 + (1 - 0.997660)^2)
+e = racinecarre(0.001404^2 + (-0.00356)^2 + 0.00234^2) 
+e = 4.49 * 10^(-3)
+

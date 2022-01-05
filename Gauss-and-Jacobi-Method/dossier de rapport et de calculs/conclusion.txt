@@ -1,0 +1,32 @@
+fait par:
+
+Woldemichael 
+Ayachi 
+Kane
+
+En conclusion des deux méhodes nous avions déduit au cours des tests plusieurs faits:
+
+La méthode de Gauss est une méthode directe excate.
+Pour les matrice de plus grande taille, elle prennent beaucoup de temps, cela s'explique 
+par sa complexité qui est de l'ordre O(n^3).
+
+De ce fait, il est important de trouver une méthode alternative pour les matrices 
+de grande taille.
+
+Ainsi la méthode de Jacobi qui est une méthode iterative est beaucoup plus rapide 
+que celle de gauss si la convergence est assurée.
+
+Cepandant, il n'est pas toujours possible d'assurer la convergence avec la méthode de 
+Jacobi, même en cas de convergence la résultat n'est pas aussi précis que celui 
+obtenu par la méthode de Gauss.
+
+0n constate que l'utilisation des méthodes dépend des cas, on peut choisir 
+la méthode de Gauss qui coute cher en temps, mais qui est plus précise ou 
+la méthode de Jacobi qui donne un résultat plus rapide mais avec une marge d'erreur.
+
+Les deux méthodes ont des cadres specifiques d'utilisation:
+La methode de gauss. On peux l'appliquer pour trouver le rang d'une matrice ou si 
+la matrice est inversible...
+
+On peux utiliser aussi la méthode de Jacobi pour trouver rapidement la solution pour 
+des matrices de grande taille. 

@@ -1,0 +1,27 @@
+fait par:
+
+Woldemichael 
+Ayachi 
+Kane
+
+Les matrices tests (jeu de tests) montrent que les méthodes de Jacobi et de gauss 
+présentent des avantages et des inconvénients.
+
+Par example nous avons trois matrices test Abordcarrée, Ding dong et Lotkin qui 
+divergent par la méthode de jacobi car leur normes deviennent beacoup plus impotantes
+à chaque iterations, elles sont aussi des matrices qui ne sont pas digaonles dominantes. 
+pour qu'on trouve la solution exacte ou precise, il faudra fixer un nombre d'iteration 
+maximal (dans notre cas elle a 1000).
+
+Ensuite nous avons des matrices qui à un certain nombre d'iteration convergent donc
+nous trouvons la solution, comme dans le cas des matrices: hilber, hilber 2, Lehmar, 
+Lotkin, Moler, Franck.
+
+Pour Certaines de ces tests la solution converge plus rapidement et d'autres demandent
+plus d'itération, qui parfois excède le nombre d'itération maximal, cela dépend aussi 
+de la marge d'erreur imposée.
+
+=======
+
+Pour la méthode de Gauss, nous trouvons la solution excate pour toutes les matrices 
+qui n'ont pas d'élements nuls sur la digonale.

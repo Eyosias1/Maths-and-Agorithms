@@ -1,0 +1,44 @@
+fait par:
+
+Woldemichael 
+Ayachi 
+Kane
+					=======Test des matrice des pourcentage d'ecart des jeux d'essaie Jacobi======== 
+	                  
+
+				b = 1 1 1	 e = 10^-3	b = 1.01 1.01 1.01		pertubation 1%:			
+Resultat:
+====Kms==========================
+				x[0] = 0.666016			x[0] = 0.672676  		0.9%		
+				x[1] = 0.333740			x[1] = 0.337078	 		0.9%		
+				x[2] = 0.666626 		x[2] = 0.673292  		0.9%
+====Franck=======================
+				x[0] = 0.998596 		x[0] = 1.008582 		0.86%
+				x[1] = -0.996490 		x[1] = -1.006454 		0.99%
+				x[2] = 0.997660 		x[2] = 1.007636 		0.99%
+====Hilber=======================
+		 		x[0] = 2.966589 		x[0] = 2.996895 		1.02%
+				x[1] = -23.829487 		x[1] = -24.071039 		1.01%
+ 				x[2] = 29.842545 		x[2] = 30.143976 		1.01%
+====Hilebert2==================== 
+				x[0] = 25.616541 		x[0] = 25.872677 		0.99%
+ 				x[1] = -106.170914 		x[1] = -107.232468		0.99%
+ 				x[2] = 95.002899 		x[2] = 95.952789 		0.99%
+====lehmar=======================
+		 		x[0] = 0.665810 		x[0] = 0.672469 		1.0%
+ 				x[1] = 0.267704 		x[1] = 0.270381 		0.9%
+ 				x[2] = 0.599594 		x[2] = 0.605590 		1.0%
+====Moler========================
+				x[0] = 10.994330 		x[0] = 11.104277 		1.0%
+ 				x[1] = 5.997165 		x[1] = 6.057138 		1.0%
+ 				x[2] = 3.998110 		x[2] = 4.038093 		1.0%
+====Ding dong===	Matrice divergente impossible de trouver la solution avec methode de jacobi.
+====Abord carre=	Matrice divergente impossible de trouver la solution avec methode de jacobi.
+====Lotkin======	Matrice divergente impossible de trouver la solution avec methode de jacobi.
+
+
+
+
+
+
+
